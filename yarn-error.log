@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\benjamin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @react-navigation/bottom-tabs
+
+PATH: 
+  C:\Users\benjamin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\benjamin\bin;C:\MongoDB\Server\6.0\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\TDM-GCC-64\bin;C:\Program Files\Git\cmd;C:\MongoDB\Server\6.0\bin;C:\Users\benjamin\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\benjamin\AppData\Local\Programs\Python\Python310;C:\Users\benjamin\AppData\Local\Microsoft\WindowsApps;C:\Users\benjamin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\benjamin\AppData\Roaming\npm;C:\Program Files (x86)\clisp-2.49;C:\Users\benjamin\AppData\Local\Android\Sdk\platform-tools;C:\Users\benjamin\Desktop\php-8.1.11-nts-Win32-vs16-x64;C:\Users\benjamin\composer;C:\Users\benjamin\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, lstat 'C:\Users\benjamin\Desktop\native\orange_moi\node_modules\expo\build\environment\getInstallationIdAsync.android.js.map'
+
+npm manifest: 
+  {
+    "name": "orange_moi",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "@ant-design/react-native": "^5.0.2",
+      "expo": "~46.0.16",
+      "expo-status-bar": "~1.4.0",
+      "react": "18.0.0",
+      "react-native": "0.69.6"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
